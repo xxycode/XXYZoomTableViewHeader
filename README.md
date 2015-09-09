@@ -5,4 +5,5 @@ var customView = UIView(frame: CGRectMake(UIScreen.mainScreen().bounds.size.widt
 tableView.zoomHeaderView = XXYTableHeaderView(tableview: tableView, height: 300, image: UIImage(named: "3"), customTopView: customView)
 一句话就加上了，customTopView这个参数是可以让你添加自定义的额外的View
 效果如下
+
 ![效果图](https://github.com/xxycode/XXYZoomTableViewHeader/blob/master/2015-09-09%2022_52_30.gif)
