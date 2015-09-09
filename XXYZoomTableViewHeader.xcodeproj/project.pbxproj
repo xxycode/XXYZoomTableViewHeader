@@ -13,6 +13,8 @@
 		A9A22FCB1BA06649005A3DE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A22FCA1BA06649005A3DE6 /* Images.xcassets */; };
 		A9A22FCE1BA06649005A3DE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A22FCC1BA06649005A3DE6 /* LaunchScreen.xib */; };
 		A9A22FDA1BA06649005A3DE6 /* XXYZoomTableViewHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A22FD91BA06649005A3DE6 /* XXYZoomTableViewHeaderTests.swift */; };
+		A9A22FE41BA066FE005A3DE6 /* XXYTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A22FE31BA066FE005A3DE6 /* XXYTableHeaderView.swift */; };
+		A9A22FE61BA0703F005A3DE6 /* UITableViewZoomHeaderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A22FE51BA0703F005A3DE6 /* UITableViewZoomHeaderExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A9A22FD31BA06649005A3DE6 /* XXYZoomTableViewHeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXYZoomTableViewHeaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A22FD81BA06649005A3DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9A22FD91BA06649005A3DE6 /* XXYZoomTableViewHeaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXYZoomTableViewHeaderTests.swift; sourceTree = "<group>"; };
+		A9A22FE31BA066FE005A3DE6 /* XXYTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XXYTableHeaderView.swift; sourceTree = "<group>"; };
+		A9A22FE51BA0703F005A3DE6 /* UITableViewZoomHeaderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewZoomHeaderExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				A9A22FC31BA06649005A3DE6 /* AppDelegate.swift */,
 				A9A22FC51BA06649005A3DE6 /* ViewController.swift */,
 				A9A22FC71BA06649005A3DE6 /* Main.storyboard */,
+				A9A22FE31BA066FE005A3DE6 /* XXYTableHeaderView.swift */,
+				A9A22FE51BA0703F005A3DE6 /* UITableViewZoomHeaderExtension.swift */,
 				A9A22FCA1BA06649005A3DE6 /* Images.xcassets */,
 				A9A22FCC1BA06649005A3DE6 /* LaunchScreen.xib */,
 				A9A22FC11BA06649005A3DE6 /* Supporting Files */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A22FE41BA066FE005A3DE6 /* XXYTableHeaderView.swift in Sources */,
 				A9A22FC61BA06649005A3DE6 /* ViewController.swift in Sources */,
 				A9A22FC41BA06649005A3DE6 /* AppDelegate.swift in Sources */,
+				A9A22FE61BA0703F005A3DE6 /* UITableViewZoomHeaderExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
