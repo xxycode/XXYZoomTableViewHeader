@@ -58,12 +58,10 @@ class XXYTableHeaderView: UIView {
         headerContentView.frame = CGRectMake(0, topOffset, width, height - topOffset)
         imageView.frame = headerContentView.bounds
         addSubview(headerContentView)
-        
         headerContentView.clipsToBounds = true
     }
     
     func tableViewDidScroll(){
-        println(imageView.width)
         var offSet_y = associatedTableView!.contentOffset.y
         if offSet_y >= 0{
             imageView.y = offSet_y/3

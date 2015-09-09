@@ -20,7 +20,6 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         customView.backgroundColor = UIColor.redColor()
         var headerView = XXYTableHeaderView(tableview: tableView, height: 300, image: UIImage(named: "3"), customTopView: customView)
         tableView.zoomHeaderView = headerView
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
