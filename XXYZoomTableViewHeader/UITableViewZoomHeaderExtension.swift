@@ -18,9 +18,18 @@ extension UITableView{
         set{
             if let newValue = newValue{
                 willChangeValueForKey("zoomHeaderView")
-                objc_setAssociatedObject(self, &AssociatedKeys.DescriptiveName, newValue as XXYTableHeaderView?, UInt(OBJC_ASSOCIATION_RETAIN_NONATOMIC))
+                objc_setAssociatedObject(self, &AssociatedKeys.DescriptiveName, newValue as XXYTableHeaderView?, UInt(OBJC_ASSOCIATION_ASSIGN))
                 didChangeValueForKey("zoomHeaderView")
             }
         }
     }
+    var showBlurImageWhenScroll:Bool?{
+        get{
+            return zoomHeaderView?.showBlurImageWhenScroll
+        }
+        set{
+            zoomHeaderView?.showBlurImageWhenScroll = newValue!
+        }
+    }
+    
 }

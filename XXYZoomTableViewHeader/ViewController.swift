@@ -20,6 +20,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         customView.backgroundColor = UIColor.redColor()
         var headerView = XXYTableHeaderView(tableview: tableView, height: 300, image: UIImage(named: "3"), customTopView: customView)
         tableView.zoomHeaderView = headerView
+        tableView.showBlurImageWhenScroll = true
     }
 
     func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
@@ -43,6 +44,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         var cell = tableView.dequeueReusableCellWithIdentifier(cellIdentify) as! UITableViewCell
         cell.textLabel?.text = "\(indexPath.row)"
         return cell
+    }
+    
+    deinit{
+        println(__FUNCTION__)
     }
 }
 
