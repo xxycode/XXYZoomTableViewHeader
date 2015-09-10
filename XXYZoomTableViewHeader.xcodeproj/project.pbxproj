@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A93F6CB41BA16E8600E56782 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93F6CB31BA16E8600E56782 /* UIImageExtension.swift */; };
 		A94B3DAE1BA085B5003CB3AB /* 2015-09-09 22_52_30.gif in Resources */ = {isa = PBXBuildFile; fileRef = A94B3DAD1BA085B5003CB3AB /* 2015-09-09 22_52_30.gif */; };
 		A9A22FC41BA06649005A3DE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A22FC31BA06649005A3DE6 /* AppDelegate.swift */; };
 		A9A22FC61BA06649005A3DE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A22FC51BA06649005A3DE6 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A93F6CB31BA16E8600E56782 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		A94B3DAD1BA085B5003CB3AB /* 2015-09-09 22_52_30.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2015-09-09 22_52_30.gif"; sourceTree = "<group>"; };
 		A9A22FBE1BA06649005A3DE6 /* XXYZoomTableViewHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXYZoomTableViewHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A22FC21BA06649005A3DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				A9A22FC51BA06649005A3DE6 /* ViewController.swift */,
 				A9A22FC71BA06649005A3DE6 /* Main.storyboard */,
 				A9A22FE31BA066FE005A3DE6 /* XXYTableHeaderView.swift */,
+				A93F6CB31BA16E8600E56782 /* UIImageExtension.swift */,
 				A9A22FE51BA0703F005A3DE6 /* UITableViewZoomHeaderExtension.swift */,
 				A9A22FCA1BA06649005A3DE6 /* Images.xcassets */,
 				A9A22FCC1BA06649005A3DE6 /* LaunchScreen.xib */,
@@ -225,6 +228,7 @@
 				A9A22FE41BA066FE005A3DE6 /* XXYTableHeaderView.swift in Sources */,
 				A9A22FC61BA06649005A3DE6 /* ViewController.swift in Sources */,
 				A9A22FC41BA06649005A3DE6 /* AppDelegate.swift in Sources */,
+				A93F6CB41BA16E8600E56782 /* UIImageExtension.swift in Sources */,
 				A9A22FE61BA0703F005A3DE6 /* UITableViewZoomHeaderExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
